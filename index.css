@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:rgb(240, 242, 245);
+
+
+}
+.main{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logbox{
+   background-color: white;
+   margin:auto;
+   height: auto;
+   box-shadow: 5px 5px 5px;
+   width: 600px;
+   margin-top: 50px;
+   border-radius: 20px;
+   
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    gap: 10px;
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+     border-radius: 10px;
+}
+#logbtn{
+    
+    background-color: blue;
+    color: white;
+}
+#sigbtn{
+    color: white;
+    background-color: blue;
+}
+#navbar{
+    background-color: blue;
+    height:40px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 400px;
+   
+}
+#image{
+    border-radius: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top:-350px;
+    width: 300px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px;
+
+
+    
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+   list-style: none;
+   background-color: white;
+   border-bottom: 1px solid;
+   padding-left: 20px;
+   margin-top: 15px;
+   
+}
+ul li{
+    margin-right: 30px;
+}
+ul li a{
+    display: inline-block;
+    padding: 15px 5px;
+    text-decoration: none;
+    font-size: 30px;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
