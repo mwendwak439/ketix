@@ -58,23 +58,13 @@ input{
     gap: 400px;
    
 }
-#image{
-    border-radius: 50%;
-    height: 300px;
-    margin: auto;
-    margin-top:-350px;
-    width: 300px;
+.profilepic{
     object-fit: cover;
-    box-shadow: 0 2px 5px;
-
-
-    
-
 }
 ul{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+   justify-content: space-around;
    list-style: none;
    background-color: white;
    border-bottom: 1px solid;

@@ -16,9 +16,10 @@
         
         </div>
         <div class="divimg">
-           <img src="./photos/pic ear.jpeg" alt="profile pic" width="100%" height="300px"> 
+           <img src="./photos/pic ear.jpeg" alt="profile pic" class="profilepic" width="100%" height="300px"> 
 
         </div>
+        
         <ul>
             <a href="#"><li>timeline</li></a>
              <a href="#"><li>about</li></a>
@@ -26,16 +27,8 @@
              <a href="#"><li>settings</li></a>
 
         </ul>
-        <div class="pro">
-                <img src="./photos/pic ear.jpeg" id="image"alt="pic"  >
-
-        </div>
-        <div class="flex" style="flex:1; background-color:black;">
-
-        </div>
-        <div class="flex" style="flex:2;background-color:grey;">
-
-        </div>
+      
+        
     </div>
 </body>
 </html>
